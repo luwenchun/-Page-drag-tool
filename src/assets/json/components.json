@@ -1,0 +1,41 @@
+{
+    "表单": {
+        "form": {
+            "tag": "wn-form",
+            "attr": {
+                "props": {
+                    "inline": true
+                }
+            },
+            "defaultValue": {},
+            "hidden": true
+        },
+        "form-item": {
+            "tag": "wn-form-item",
+            "hidden": true
+        },
+        "input": {
+            "label": "输入框",
+            "tag": "wn-input"
+        },
+        "radio-group": {
+            "label": "单选框组",
+            "tag": "wn-radio-group",
+            "options":[{"prop":"children","value": [
+                {"el":"radio","options":[{"prop":"children","value":"选项1"}]},
+                {"el":"radio","options":[{"prop":"children","value":"选项2"}]}
+            ]}]
+        },
+        "radio": {
+            "label": "单选框",
+            "tag": "wn-radio",
+            "hidden": true
+        }
+    },
+    "数据": {
+        "table": {
+            "label": "表格",
+            "tag": "wn-table"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "form-item": [
+        {
+            "widget": "input",
+            "label": "表单标签",
+            "prop": "props.label",
+            "defaultValue": ""
+        }
+    ],
+    "input": [
+        {
+            "widget": "input",
+            "label": "表单绑定",
+            "prop": "v-model",
+            "lazy": true
+        }
+    ],
+    "radio-group": [
+        {
+            "widget": "input",
+            "label": "表单绑定",
+            "prop": "v-model",
+            "lazy": true
+        },
+        {
+            "widget": "list",
+            "label": "选项",
+            "prop": "children",
+            "el": "radio"
+        }
+    ],
+    "radio": [
+        {
+            "widget": "input",
+            "label": "值",
+            "prop": "props.label"
+        },
+        {
+            "widget": "input",
+            "label": "标签",
+            "prop": "children"
+        }
+    ]
+}
