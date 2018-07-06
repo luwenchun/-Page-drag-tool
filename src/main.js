@@ -14,7 +14,7 @@ Vue.use(WinningUI)
 Vue.component('editor-dyn-container', editorDynComponent)
 
 /* eslint-disable no-new */
-new Vue({
+new Vue({ 
   el: '#app',
   router,
   template: '<App/>',
